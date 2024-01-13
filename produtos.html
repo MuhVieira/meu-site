@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="produtos.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap" rel="stylesheet">
+    <title>Produtos</title>
+</head>
+<body class="product-page">
+    <header>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        <img class="logo" src="https://cdn-icons-png.flaticon.com/512/6193/6193267.png" alt="">
+        <button class="login-button"><a href="login.html">Login</a></button>
+        <button class="signup-button"><a href="cadastro.html">Cadastre-se</a></button>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Pesquisar...">
+            <button id="search-button"><img src="https://cdn-icons-png.flaticon.com/256/64/64673.png" alt="Buscar"></button>
+        </div>
+    </header>
+
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://a-static.mlcdn.com.br/450x450/alternador-gol-parati-santana-saveiro-pointer-voyage-ap-90a-mq/l2shopautomotiva/11777223838/64a77108ad17dd40f65a71051704b644.jpeg" alt="Alternador 1">
+                <img src="https://cdn.okvendas.com/selfcar/imagem/alternador_gol_parati_passat_quantum_santana_saveiro_voyage_90a___zen41007_525032_344359.jpg" alt="Alternador 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Alternador Gol Parati Santana Saveiro Pointer Voyage Ap 90a</h2>
+        <p class="price">R$ 450,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://31b93296e4855c6e.cdn.gocache.net/loja/imagens/full/kit-volante-e-cubo-lotse-maxx-competition-camurca.png" alt="Volante 1">
+                <img src="https://d2r9epyceweg5n.cloudfront.net/stores/256/939/products/volante-esportivo-lotse-dakar-camurca-350mm-aluminio-3-raios-d_nq_np_633511-mlb27242919021_042018-f1-c9754fabe6ce50d5b715419694229842-1024-1024.jpg" alt="Volante 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Volante Esportivo Lotse Maxx Competition + Cubo para Chevrolet Corsa 94/03</h2>
+        <p class="price">R$ 190,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://a-static.mlcdn.com.br/450x450/escapamento-esportivo-moto-pro-tork-competition-cromado-pop-110-2016-ate-2019/sportbayoficial/119934428801/11db89b70e819e4cb90ecb09cfe7eb16.jpeg" alt="Escapamento 1">
+                <img src="https://down-br.img.susercontent.com/file/br-11134201-23010-3kfsr6n6evlvbb" alt="Escapamento 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Escapamento Esportivo Moto Pro Tork Competition Cromado Pop 110 2016 Até 2019</h2>
+        <p class="price">R$ 200,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_733120-MLB44886236865_022021-O.webp" alt="Aerofolio 1">
+                <img src="https://www.clubmax.com.br/wp-content/uploads/2019/08/01_club-307.jpg" alt="Aerofolio 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Aerofolio Esportivo Universal Adaptavel P/ Qualquer Sedan</h2>
+        <p class="price">R$ 300,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_673015-MLB47667901760_092021-O.webp" alt="Body Kit 1">
+                <img src="https://ae01.alicdn.com/kf/Sc800d1236c504e8b829cfe8234a3a381C/Carro-retrofit-bodykit-para-honda-hatchback-civic-2021-p-ra-choques-l-bio-traseiro-difusor-spoiler.jpg" alt="Body Kit 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Body Kit Honda Civic G10 2017 2018 2019 2020 2021</h2>
+        <p class="price">R$ 750,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    <div class="product-details">
+        <div class="carousel">
+            <div class="product-images">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_882868-MLB54613177813_032023-O.webp" alt="Pastilha 1">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_634722-MLB54613177821_032023-O.webp" alt="Pastilha 2">
+            </div>
+            <button class="prev-button" onclick="mudarImagem(-1)">Anterior</button>
+            <button class="next-button" onclick="mudarImagem(1)">Próxima</button>
+        </div>
+        <h2>Kit Pastilhas De Freio Brembo Ford Mustang Gt 5.0 V8 2018</h2>
+        <p class="price">R$ 500,00</p>
+        <button class="buy-button" onclick="comprarProduto()">Comprar</button>
+    </div>
+    
+    <script src="produtos.js"></script>
+</body>
+</html>

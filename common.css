@@ -1,0 +1,61 @@
+html {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 4.9rem;
+    top: 0;
+    background-color: red;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    top: 0.5rem;
+    left: 1rem;
+}
+
+header ul {
+    position: fixed;
+    left: 27%;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    padding: 1.5rem;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color: red;
+}
+
+button a {
+    color: white;
+}
+
+main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5rem;
+}
+
+main h1 {
+    text-align: center;
+}
